@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/rl_popup_border"
+    android:layout_gravity="bottom|center_horizontal"
+    android:orientation="vertical"
+    android:background="@drawable/abc_popup_background_mtrl_mult">
+    <!--
+    android:gravity="bottom|center_horizontal" -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_popup_text"
+        android:layout_gravity="center_horizontal"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_popup_wazeit"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/waze_it"/>
+
+</LinearLayout>

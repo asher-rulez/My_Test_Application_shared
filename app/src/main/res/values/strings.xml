@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MyTestApplication</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="marker_1_label">Guy\'s House</string>
+    <string name="marker_2_label">Coffee neto bitan aharon</string>
+    <string name="marker_3_label">Shabtai pizza</string>
+    <string name="my_location">I\'m here</string>
+    <string name="waze_it">Waze it!</string>
+    <string name="desc_list_item_icon">Item Icon</string>
+</resources>

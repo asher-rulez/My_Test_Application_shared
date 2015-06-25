@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@drawable/list_selector">
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:contentDescription="@string/desc_list_item_icon"
+        android:src="@drawable/green_marker_small"
+        android:layout_centerVertical="true" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/icon"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+            android:textAppearance="?android:attr/textAppearanceListItemSmall"
+            android:textColor="@color/list_item_title"
+            android:textAlignment="gravity"
+            android:gravity="start|bottom"
+            android:textSize="12sp"
+            android:paddingRight="40dp"/>
+        <TextView
+            android:id="@+id/sub_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="gravity"
+            android:gravity="start|top"
+            android:textColor="@color/list_item_title"
+            android:textSize="12sp"
+            android:paddingRight="40dp"/>
+
+    </LinearLayout>
+
+
+    <!-- <TextView android:id="@+id/counter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:textColor="@color/list_item_title"/>
+    android:background="@drawable/counter_bg" -->
+
+</RelativeLayout>
